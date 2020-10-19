@@ -2,41 +2,75 @@ body {
   font-family: 'Libre Baskerville', serif;
   background: url("/images/background.jpg");
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  /*.box {
+			width: 250px;
+			height: 50px;
+			margin: 10px;
+			padding: 25px;
+			opacity: .6;
+	}*/
+  /*	p {background-color: white;
+			width: 250px;
+			height: 200px;
+			margin: 10px;
+			padding: 25px;
+			opacity: .6;
+		} */
+  /* article:nth-of-type(3) {
+			flex: 3 200px;
+			display: flex;
+			flex-flow: column;
+		}
+
+		article:nth-of-type(3) div:first-child {
+			flex: 1 100px;
+			display: flex;
+			flex-flow: row wrap;
+			align-items: center;
+			justify-content: space-around;
+		}
+
+		button {
+			flex: 1 auto;
+			margin: 5px;
+			font-size: 18px;
+			line-height: 1.5;
+		} */ }
   body header {
-    font-size: 5rem;
+    font-size: 7rem;
     color: white;
     font-weight: bold;
     text-shadow: 3px 3px 5px black;
     text-align: center;
     margin: 30px; }
-  body section {
-    display: flex; }
   body img {
-    width: 400px; }
-  body .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%; }
+    width: 50%;
+    max-width: 500px;
+    margin-left: 50px;
+    margin-top: 50px; }
   body h1 {
+    background-color: white; }
+  body .float {
+    float: left;
+    margin: 15px;
+    width: 50%; }
+  body .wrapper {
+    padding: 10px; }
+  body .cleared {
+    clear: right; }
+  body section {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; }
+  body article {
+    flex: 1 100px;
+    text-align: center;
     background-color: white;
-    text-align: center; }
-  body .box {
-    width: 250px;
-    height: 50px;
+    padding: 10px;
     margin: 10px;
-    padding: 25px;
     opacity: .6; }
-  body p {
-    background-color: white; }
-  body h2 {
-    background-color: white; }
-  body h3 {
-    background-color: white; }
-  body ul {
-    background-color: white;
-    border: 2px solid black; }
-  body ol {
-    background-color: white;
-    border: 2px solid black; }
+  body ul, body ol {
+    list-style-position: inside; }
