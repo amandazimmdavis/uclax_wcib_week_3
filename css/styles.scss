@@ -72,9 +72,7 @@ header{
 				clear: right;
 			}
 
-			.clearedboth {
-				clear: both;
-			}
+
 		}
 
 		/*	p {background-color: white;
@@ -85,12 +83,13 @@ header{
 			opacity: .6;
 		} */
 
-			section {
+			.myflex {
 			display: flex;
 
 			max-width: 1200px;
 			margin-left: auto;
 			margin-right: auto;
+			clear:both;
 			}
 
 		article {
@@ -113,7 +112,7 @@ header{
 
 
 			@media screen and (max-width: 500px) {
-				section {flex-direction: column;}
+				div {flex-direction: column;}
 
 
 			}

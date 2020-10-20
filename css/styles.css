@@ -59,14 +59,13 @@ body {
     body .wrapper {
       padding: 10px; }
     body .cleared {
-      clear: right; }
-    body .clearedboth {
-      clear: both; } }
-  body section {
+      clear: right; } }
+  body .myflex {
     display: flex;
     max-width: 1200px;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    clear: both; }
   body article {
     flex: 1 100px;
     text-align: center;
@@ -78,5 +77,5 @@ body {
     list-style-position: inside;
     margin-right: 15px; }
   @media screen and (max-width: 500px) {
-    body section {
+    body div {
       flex-direction: column; } }
