@@ -75,7 +75,8 @@ body {
     margin: 10px;
     opacity: .6; }
   body ul, body ol {
-    list-style-position: inside; }
+    list-style-position: inside;
+    margin-right: 15px; }
   @media screen and (max-width: 500px) {
     body section {
       flex-direction: column; } }
